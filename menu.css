@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+   
+   margin-top: 50px;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+h1{
+    text-align: center;
+}
+hr{
+    margin-top: 8px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 4px;
+    background-color: gold;
+    margin-left: 45%;
+}
+img{
+    width: 240px;
+    border: 3px solid gold;
+}
+.menuContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+.menuContainer .menuItem{
+    display: flex;
+    gap: 10px;
+}
+.menuContainer .menuItem .box{
+    width: 355px;
+}
+header{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+h4{
+    font-weight: bold;
+}
+p{
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+.menubtn{
+    margin-left: 35%;
+}
+button{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid gold;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+button:hover{
+    background-color: gold;
+}
+@media (max-width:600px) {
+    .container{
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+    }
+    .menubtn{
+        margin: 0;
+    }
+   button{
+    /* background-color: red; */
+    width: 75px;
+    padding: 12px;
+   margin: 0 2px;
+   }
+   p{
+    font-size: 16px;
+   }
+    
+}
